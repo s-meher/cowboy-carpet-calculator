@@ -1,79 +1,80 @@
 # Cowboy Rob's Carpet Calculator 🤠
-## Table of Contents
-- Introduction
-- Deliverable
-- What is a Function?
-- Provided Functions
-- Testing Your Code
-- Extra Help (If Needed)
-- Level Up! (Extra Credit)
 
-## Introduction
-Welcome to *Cowboy Rob's Carpet Calculator*! Let's get started 🤠
+🛠️ A fun and interactive tool to calculate the carpet area needed for two rooms — with a 10% waste buffer!  
+Built using **HTML**, **CSS**, and **JavaScript**.
 
-Open your `script.js` file to see where you'll write your code. It looks like this:
+---
 
-```js
-function calculateCarpet() {
-  // 👇 Write your code here 👇
-  
-  // console.log("click");
+## 🕹️ Live Demo
+[Check out the live site here! 🚀](https://s-meher.github.io/cowboy-carpet-calculator/)
 
-}
-```
+---
 
-Any code you write between these curly braces will run every time you click the `Calculate` button on the webpage.
+## 📚 Overview
+Cowboy Rob’s Carpet Calculator lets users input the width and length of two rooms, calculates the total area, adds 10% extra for waste, and displays the final result dynamically on the page.
 
-Uncomment the `console.log("click")` statement by removing the preceding `//`. Once you've done that, click the repl's Run button. Now each time you click the `Calculate` button, you'll see the text "click" appear in the browser console.
+This project reinforces real-world concepts like:
+- Form input handling
+- DOM manipulation
+- Basic mathematical operations
+- Responsive front-end development
 
+---
 
-## Deliverable
-Your task is to retrieve the room dimensions a user enters and calculate the square footage of carpet needed to cover **both rooms INCLUDING 10% EXTRA.** Once you've calculated the square footage, you'll display that value on the page. 
+## 🔨 Built With
+- HTML5
+- CSS3 (custom responsive design)
+- JavaScript (ES6+)
 
-We've included a few functions in the starter code to help you get the job done. Read on to learn more!
+---
 
-> **🗒 Note:** The only file you need to edit to complete this Milestone is `script.js`.
+## ✨ Key Features
+- **Two Room Inputs:** Width and Length for Room 1 and Room 2.
+- **Accurate Carpet Area Calculation:** Includes an automatic 10% extra for cutting/waste.
+- **Dynamic Result Display:** Shows total carpet area needed in square feet.
+- **Form Validation:** Ensures correct data fetching.
+- **Responsive Layout:** Mobile-friendly for smaller screens.
+- **Level Up Enhancements:**
+  - Hover and click animations for buttons.
+  - Soft green color theme and smooth transitions.
+  - Styled result container with box shadow and background color for better readability.
 
-## What is a Function? 
-Functions are pieces of Javascript code that accomplish a task and are assigned easy to remember names. 
+---
 
-One example of a function you've seen so far is `console.log()`, which prints some text to the console. We'll be doing a deep-dive on functions soon. For now, the important thing to know is **we can use (or "call") a function by writing its name followed by parentheses, often with some data between the parentheses.** 
+## 🚀 How It Works
+1. Input the width and length for two different rooms.
+2. Click the **Calculate** button.
+3. The app will:
+   - Fetch and validate the input values.
+   - Calculate the areas individually and combine them.
+   - Add 10% extra to the total area.
+   - Display the final required square footage dynamically in the result section.
 
+---
 
-## Provided Functions
-You'll need to use each of the following functions to get get the job done.
+## 📂 Project Structure
+- .codesandbox/        # (CodeSandbox internal setup files)
+- img/                 # Folder containing images like logo.png
+- .eslintrc.json       # Linting configuration (optional, helps code quality)
+- .gitignore           # Git settings to ignore unnecessary files
+- README.md            # Project overview and instructions
+- index.html           # Main HTML structure of the app
+- package.json         # Metadata for project (even if no npm packages used)
+- provided.js          # Provided helper functions (DO NOT edit)
+- script.js            # Your JavaScript code (where calculateCarpet() is written)
+- style.css            # Your custom CSS styles for layout and design
 
-> **🧠 Pro-tip:** Try running each of these functions from the console to fully understand them before you start coding. 
+---
 
-<hr>
+## 🙌 Acknowledgements
+- Project inspired by Cowboy Rob’s coding challenge 🤠.
+- Confetti idea and extra UI polish inspired by modern UX practices!
 
-1. **`getRoomWidth(roomNumber)`**
-   
-This function accepts a room number (either `1` or `2`) between its parentheses. The function will return the number a user typed into the width input for the room you specify (`1` for Room 1 or `2` for Room 2). On the page, type a number  in the width input for Room 1. Then, type `getRoomWidth(1)` in your console and press enter to see how it works. 
-<hr>
+---
 
-2. **`getRoomLength(roomNumber)`**
-   
-This function works just like `getRoomWidth` but for the room's length. Type something into the length input for Room 1, then type `getRoomLength(1)` in your console and press enter to confirm how it works. 
-<hr>
+## 📢 Future Improvements (Optional Ideas)
+- Add a **"Reset" button** to clear form fields and results.
+- Add **room type icons** (e.g., Living Room, Bedroom, etc.)
+- Add animated "Carpet Unrolling" visual when calculation completes.
 
-3. **`showResult(result)`**
-   
-This function accepts a number between its parentheses. You'll use this function to display the total square footage to the user once you've calculated it. Try running `showResult(255)` in the console and take a look at the page afterwards.
-
-## Testing Your Code
-Your starter code also includes a test function called **`calculateCarpetTest()`**. You can type this directly into the console yourself, or simply click the `Run` button as we've already called it at the bottom of your `script.js` file.
-
-If your code is working, the test function will show a PASSED message in the console. If there are any issues with your code, the test will show a FAILED message and may produce a HINT to help you debug.
-
-## Extra Help (If Needed)
-You have everything you need to get started! The most challenging part is going to be decomposing this problem into smaller parts (what to do first, second, third). You should try this on your own but if you get stuck, take a look at `HINTS.md` for some extra help.
-
-
-## Level Up! (Extra Credit)
-Feel like taking things to the next level? Choose one (or both!) of the optional level ups below to snag some extra credit:
-
-1. Head over to `provided.js`. Select two different provided functions and read over the code for each one. Leave comments at the bottom of  `script.js` that explain how these functions work in your own words. 
-2. If you're feeling creative, write some custom CSS to add your own flair to the page. Leave a comment describing what you did in `script.js` so your grader can recognize your hard work! 
-
-Good luck and happy coding. You got this!
+---
